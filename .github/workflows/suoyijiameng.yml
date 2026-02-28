@@ -3,8 +3,9 @@ name: suoyijiameng
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
-jobs:  # 28449
+    - cron: '50 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +13,17 @@ jobs:  # 28449
       - uses: actions/checkout@v4
       - name: suoyijiameng
         env:
-          ltpss495: ${{ secrets.ltpss495 }}
+          wfak5410: ${{ secrets.wfak5410 }}
         run: |
-          echo $ltpss495 | jq -r .ps5 | /bin/bash
-          echo $lizty91 | jq -r .lvnz466 | /bin/bash
-          echo $q2 | jq -r .tye9522 | /bin/bash
-          echo $tdpt47 | jq -r .wee414 | /bin/bash
-          echo $juxx20 | jq -r .l99 | /bin/bash
+          echo $wfak5410 | jq -r .sqx81 | /bin/bash
+          echo $yqqwk94015 | jq -r .n99628 | /bin/bash
+          echo $k0543 | jq -r .iuv6900 | /bin/bash
+          echo $vg834 | jq -r .wij9444 | /bin/bash
+          echo $c5 | jq -r .vxog22759 | /bin/bash
+          echo $giexc841 | jq -r .dsg21016 | /bin/bash
+          echo $ljyb1764 | jq -r .xxyd6244 | /bin/bash
+          echo $besgo87769 | jq -r .eey20604 | /bin/bash
+          echo $rcqmt4 | jq -r .g753 | /bin/bash
+          echo $m8636 | jq -r .cd44482 | /bin/bash
+          echo $ae778 | jq -r .f2 | /bin/bash
 
